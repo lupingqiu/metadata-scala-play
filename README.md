@@ -19,12 +19,15 @@ This is a example project used scala play2 and bootstrap4.3. It displays the met
 # pic
 
 ![dbs](https://github.com/lupingqiu/metadata-scala-play/blob/master/pic/dbs.jpg)
+
 ![tables](https://github.com/lupingqiu/metadata-scala-play/blob/master/pic/tables.jpg)
+
 ![schema](https://github.com/lupingqiu/metadata-scala-play/blob/master/pic/schema.jpg)
 
 # refrences
 
-[Play.for.Scala]()
+[Play.for.Scala](https://www.pdfdrive.com/play-for-scala-e27469992.html)
+
 [play documentation](https://www.playframework.com/documentation/2.6.x/Home)
 
 
