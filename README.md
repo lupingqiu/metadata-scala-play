@@ -4,8 +4,9 @@ scala play2 example
 
 # run
 
-> sbt
-> run
+- sbt
+
+- run
 
 # web
 
@@ -13,10 +14,13 @@ scala play2 example
 
 # describe
 
-This is a example project used scala play2. It displays the metadata from hive metastore.
+This is a example project used scala play2 and bootstrap4.3. It displays the metadata from hive metastore.
 
 # pic
 
+![dbs](https://github.com/lupingqiu/metadata-scala-play/blob/master/pic/dbs.jpg)
+![tables](https://github.com/lupingqiu/metadata-scala-play/blob/master/pic/tables.jpg)
+![schema](https://github.com/lupingqiu/metadata-scala-play/blob/master/pic/schema.jpg)
 
 # refrences
 
