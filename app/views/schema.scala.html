@@ -1,0 +1,55 @@
+@import models.Table
+@import models.Field
+
+@(table:Table)(fields:List[Field])
+
+@main("Table Schema") {
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Key</th>
+                <th scope="col">Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TableName</td>
+                <td>@table.tableName</td>
+            </tr>
+            <tr>
+                <td>DbName</td>
+                <td>@table.dbName</td>
+            </tr>
+            <tr>
+                <td>Owner</td>
+                <td>@table.owner</td>
+            </tr>
+            <tr>
+                <td>CreateTime</td>
+                <td>@table.createTime</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">FieldName</th>
+                <th scope="col">FieldType</th>
+                <th scope="col">Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+            @fields.zipWithIndex.map{case (f,i)=>
+                <tr>
+                    <th scope="row">@(i+1)</th>
+                    <td>@f.fieldName</td>
+                    <td>@f.fieldType</td>
+                    <td>@f.comment</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

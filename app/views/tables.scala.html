@@ -1,0 +1,13 @@
+@(dbName:String)(tableList:List[String])
+
+@main("Table List") {
+    <ul class="list-group">
+        @tableList.zipWithIndex.map{case (t,i)=>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="@routes.HiveController.schema(dbName,t)">@t</a>
+                <span class="badge badge-primary badge-pill">@(i+1)</span>
+            </li>
+        }
+    </ul>
+}
+
