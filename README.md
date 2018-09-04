@@ -26,7 +26,7 @@ This is a example project used scala play2 and bootstrap4.3. It displays the met
 
 [Play.for.Scala](https://www.pdfdrive.com/play-for-scala-e27469992.html)
 
-[play documentation](https://www.playframework.com/documentation/2.6.x/Home)
+[Play Documentation](https://www.playframework.com/documentation/2.6.x/Home)
 
 
 
