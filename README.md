@@ -1,6 +1,7 @@
 # metadata-scala-play
 
-scala play2 example
+scala play2 example.
+This is a example project used scala play2 and bootstrap4.3. It displays the metadata from hive metastore.
 
 # run
 
@@ -12,9 +13,6 @@ scala play2 example
 
 > http://localhost:9000/databases
 
-# describe
-
-This is a example project used scala play2 and bootstrap4.3. It displays the metadata from hive metastore.
 
 # pic
 
